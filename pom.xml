@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wyn</groupId>
   <artifactId>common-framework</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
+  <version>@{project.version}</version>
   <name>common-framework</name>
   <description>Simulates Common Project Dependencies</description>
   <properties>
