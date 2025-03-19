@@ -51,7 +51,6 @@
           <preparationGoals>package</preparationGoals>
           <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
           <tagNameFormat>@{project.version}</tagNameFormat>
-          <tag>${releaseVersion}</tag>
           <remoteTagging>false</remoteTagging>
         </configuration>
       </plugin>
