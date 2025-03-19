@@ -8,8 +8,6 @@
   <properties>
     <java.version>21</java.version>
     <project.scm.id>github.com</project.scm.id>
-    <scm.tag>@{project.version}</scm.tag>
-    <releaseVersion>@{project.version}</releaseVersion>
   </properties>
   <scm>
     <connection>scm:git:git@github.com:agentVargas2012R/common-framework.git</connection>
