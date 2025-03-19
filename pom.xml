@@ -8,7 +8,7 @@
   <scm>
     <connection>scm:git:git@github.com:agentVargas2012R/common-framework.git</connection>
     <url>https://github.com/agentVargas2012R/common-framework</url>
-    <tag>1.0.4</tag>
+    <tag>@{project.version}</tag>
   </scm>
   <properties>
     <java.version>21</java.version>
@@ -50,7 +50,7 @@
           <goals>package</goals>
           <preparationGoals>install</preparationGoals>
           <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-          <tagNameFormat>v@{project.version}</tagNameFormat>
+          <tagNameFormat>@{project.version}</tagNameFormat>
           <remoteTagging>false</remoteTagging>
         </configuration>
       </plugin>
