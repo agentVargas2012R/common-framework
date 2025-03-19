@@ -50,7 +50,7 @@
           <goals>package</goals>
           <preparationGoals>install</preparationGoals>
           <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-          <tagNameFormat>@{project.version}</tagNameFormat>
+          <tagNameFormat>v@{project.version}</tagNameFormat>
           <remoteTagging>false</remoteTagging>
         </configuration>
       </plugin>
