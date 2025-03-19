@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wyn</groupId>
   <artifactId>common-framework</artifactId>
-  <version>1.1.3-SNAPSHOT</version>
+  <version>1.1.3</version>
   <name>common-framework</name>
   <description>Simulates Common Project Dependencies</description>
   <properties>
@@ -12,7 +12,7 @@
   <scm>
     <connection>scm:git:git@github.com:agentVargas2012R/common-framework.git</connection>
     <url>https://github.com/agentVargas2012R/common-framework</url>
-    <tag>1.1.1</tag>
+    <tag>1.1.3</tag>
   </scm>
   <distributionManagement>
     <repository>
