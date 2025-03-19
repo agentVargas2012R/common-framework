@@ -5,15 +5,16 @@
   <version>1.0.5-SNAPSHOT</version>
   <name>common-framework</name>
   <description>Simulates Common Project Dependencies</description>
+  <properties>
+    <java.version>21</java.version>
+    <project.scm.id>github.com</project.scm.id>
+    <scm.tag>@{project.version}</scm.tag>
+  </properties>
   <scm>
     <connection>scm:git:git@github.com:agentVargas2012R/common-framework.git</connection>
     <url>https://github.com/agentVargas2012R/common-framework</url>
     <tag>@{project.version}</tag>
   </scm>
-  <properties>
-    <java.version>21</java.version>
-    <project.scm.id>github.com</project.scm.id>
-  </properties>
   <distributionManagement>
     <repository>
       <id>releases</id>
