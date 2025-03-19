@@ -12,7 +12,6 @@
   <scm>
     <connection>scm:git:git@github.com:agentVargas2012R/common-framework.git</connection>
     <url>https://github.com/agentVargas2012R/common-framework</url>
-    <tag>${project.version}</tag>
   </scm>
   <distributionManagement>
     <repository>
