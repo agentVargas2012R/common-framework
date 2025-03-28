@@ -1,6 +1,8 @@
 package com.wyn.models;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private long id;
     private String username;
     private String email;
