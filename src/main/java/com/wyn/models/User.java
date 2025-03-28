@@ -10,6 +10,8 @@ public class User implements Serializable {
     private String username;
     private String email;
 
+    private String firstname;
+
     public long getId() {
         return id;
     }
@@ -32,5 +34,13 @@ public class User implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 }
