@@ -2,6 +2,9 @@ package com.wyn.models;
 
 import java.io.Serializable;
 
+/**
+ * Configure githooks example.
+ */
 public class User implements Serializable {
     private long id;
     private String username;
