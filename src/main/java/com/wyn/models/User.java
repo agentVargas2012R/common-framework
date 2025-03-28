@@ -43,4 +43,6 @@ public class User implements Serializable {
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
+
+
 }
