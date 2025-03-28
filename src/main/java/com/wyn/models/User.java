@@ -43,8 +43,6 @@ public class User implements Serializable {
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
-
-
     @Override
     public String toString() {
         //override me more often.
