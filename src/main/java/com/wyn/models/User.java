@@ -6,6 +6,7 @@ import java.io.Serializable;
  * Configure githooks example.
  */
 public class User implements Serializable {
+    private long aid;
     private long id;
     private String username;
     private String email;
@@ -43,9 +44,11 @@ public class User implements Serializable {
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
+
     @Override
     public String toString() {
         //override me more often.
         return this.username;
     }
+
 }
